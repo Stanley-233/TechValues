@@ -1,11 +1,57 @@
-import { useState, useCallback } from 'react';
+import { useState, useCallback, useMemo } from 'react';
 import Quiz from './components/Quiz';
 import Results from './components/Results';
+import { AXES } from './utils/calculator';
+import ideologies from './data/ideologies.json';
+import tags from './data/tags.json';
+import questions from './data/questions.json';
 import './App.css';
 
+function parseUrlResults() {
+  const params = new URLSearchParams(window.location.search);
+  const axesParam = params.get('a');
+  const tagsParam = params.get('t');
+
+  if (!axesParam) return null;
+
+  const axisValues = axesParam.split(',').map(Number);
+  if (axisValues.length !== 4 || axisValues.some(isNaN)) return null;
+
+  const scores = {};
+  AXES.forEach((axis, i) => {
+    scores[axis] = Math.max(0, Math.min(100, axisValues[i]));
+  });
+
+  const ideologyMatches = ideologies.ideologies
+    .map(ideology => {
+      let distance = 0;
+      AXES.forEach(axis => {
+        distance += Math.pow(scores[axis] - ideology.stats[axis], 2);
+      });
+      distance = Math.sqrt(distance);
+      const maxDistance = Math.sqrt(AXES.length * 10000);
+      const match = Math.round((1 - distance / maxDistance) * 100);
+      return { ...ideology, match };
+    })
+    .sort((a, b) => b.match - a.match)
+    .slice(0, 3);
+
+  let topTags = [];
+  if (tagsParam) {
+    const tagIds = tagsParam.split(',');
+    topTags = tagIds
+      .map(id => tags.tags.find(t => t.id === id))
+      .filter(Boolean)
+      .slice(0, 5);
+  }
+
+  return { scores, ideologyMatches, topTags };
+}
+
 function App() {
-  const [phase, setPhase] = useState('intro');
-  const [results, setResults] = useState(null);
+  const urlResults = useMemo(() => parseUrlResults(), []);
+  const [phase, setPhase] = useState(urlResults ? 'results' : 'intro');
+  const [results, setResults] = useState(urlResults);
 
   const handleComplete = useCallback((calculatedResults) => {
     setResults(calculatedResults);
@@ -15,6 +61,7 @@ function App() {
   const handleRestart = useCallback(() => {
     setResults(null);
     setPhase('intro');
+    window.history.replaceState({}, '', window.location.pathname);
   }, []);
 
   return (
@@ -31,7 +78,7 @@ function App() {
               欢迎来到 TechValues 测试！这个测试将帮助你了解自己在计算机科技领域的理念倾向。
             </p>
             <p>
-              测试共有 <strong>40</strong> 道题目，涵盖四个维度：
+              测试共有 <strong>{questions.questions.length}</strong> 道题目，涵盖四个维度：
             </p>
             <ul className="dimension-list">
               <li><span className="dim-tag dim-1">免费 vs 商业</span></li>

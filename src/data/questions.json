@@ -54,21 +54,16 @@
     },
     {
       "id": 4,
-      "text": "Meta、DeepSeek 将模型开源，比 OpenAI 坚持闭源并提供 API 的做法对人类社会的贡献更大，即使开源可能带来滥用风险。",
-      "effect": {
-        "free_commercial": 0.5,
-        "public_proprietary": 1.0,
-        "individual_center": 0.6,
-        "freedom_security": 0.6
-      },
+        "text": "开放模型权重和训练方法，比只提供闭源 API 更有利于技术公平和公共监督。",
+        "effect": {
+          "free_commercial": 0.4,
+          "public_proprietary": 1.0,
+          "individual_center": 0.5,
+          "freedom_security": 0.3
+        },
       "tags": {
         "strongly_agree": [
-          "ai_openness_advocate",
-          "e_acc"
-        ],
-        "strongly_disagree": [
-          "anthropic_simp",
-          "safety_first"
+          "ai_openness_advocate"
         ]
       }
     },
@@ -113,12 +108,12 @@
     },
     {
       "id": 7,
-      "text": "欧盟强制要求苹果 iOS 开放第三方应用商店（侧载）并统一 Type-C 接口，是粗暴干预自由市场的恶政。",
+      "text": "即使苹果生态更安全稳定，用户也应该有权绕过 App Store 安装软件。。",
       "effect": {
-        "free_commercial": -0.6,
-        "public_proprietary": -0.5,
-        "individual_center": 0.4,
-        "freedom_security": -0.2
+        "free_commercial": 0.2,
+        "public_proprietary": 0.7,
+        "individual_center": 0.8,
+        "freedom_security": 0.7
       },
       "tags": {}
     },
@@ -144,12 +139,12 @@
     },
     {
       "id": 9,
-      "text": "AI 公司直接爬取 Github 代码来训练大模型，属于合理使用，不应被起诉侵权。",
+      "text": "AI 公司直接爬取 Github 代码来训练大模型，属于合理使用。",
       "effect": {
-        "free_commercial": -0.4,
-        "public_proprietary": 0.8,
-        "individual_center": -0.5,
-        "freedom_security": 0.6
+        "free_commercial": -0.2,
+        "public_proprietary": 0.5,
+        "individual_center": -0.2,
+        "freedom_security": 0.5
       },
       "tags": {
         "strongly_agree": [
@@ -234,7 +229,7 @@
     },
     {
       "id": 14,
-      "text": "代码写得是否优雅、内存是否安全（比如坚持用 Rust 重写），比项目能否快速上线抢占市场重要得多。",
+      "text": "代码写得是否优雅、内存是否安全（比如采用 Rust 语言），比项目能否快速上线抢占市场重要得多。",
       "effect": {
         "free_commercial": 0.2,
         "public_proprietary": 0.1,
@@ -322,10 +317,10 @@
       "id": 19,
       "text": "AI 公司未经许可，直接爬取 ArtStation 或 Pixiv 上的画作来训练生图模型，本质上是对人类创作者的剽窃，必须予以严惩。",
       "effect": {
-        "free_commercial": 0.5,
+        "free_commercial": 0.0,
         "public_proprietary": -0.7,
-        "individual_center": 0.8,
-        "freedom_security": -0.6
+        "individual_center": 0.5,
+        "freedom_security": 0.0
       },
       "tags": {
         "strongly_agree": [
@@ -409,23 +404,23 @@
     },
     {
       "id": 24,
+      "text": "商业公司长期依赖开源项目却不给维护者任何回报，本质上是一种剥削。",
+      "effect": {
+        "free_commercial": 0.4,
+        "public_proprietary": 0.5,
+        "individual_center": 0.4,
+        "freedom_security": 0.1
+      },
+      "tags": {}
+    },
+    {
+      "id": 25,
       "text": "开源项目的核心维护者如果迟迟拿不到商业公司的赞助，有权在自己的代码里下毒来抗议白嫖。",
       "effect": {
         "free_commercial": -0.6,
         "public_proprietary": -0.5,
         "individual_center": 0.8,
         "freedom_security": 0.7
-      },
-      "tags": {}
-    },
-    {
-      "id": 25,
-      "text": "安全研究员挖到的 0-day 漏洞，应该首选提交给官方换取几十万赏金并修复，而不是为了几百万卖给 NSO 这样的黑客军火商。",
-      "effect": {
-        "free_commercial": 0,
-        "public_proprietary": 0,
-        "individual_center": -0.5,
-        "freedom_security": -0.8
       },
       "tags": {}
     },
@@ -554,7 +549,7 @@
         "free_commercial": 0.5,
         "public_proprietary": 0.8,
         "individual_center": -0.3,
-        "freedom_security": -0.2
+        "freedom_security": 0
       },
       "tags": {}
     },
@@ -675,6 +670,33 @@
           "e_acc"
         ]
       }
+    },
+    {
+      "id": 43,
+        "text": "即使开源 AI 模型可能被滥用，默认也不应由少数公司或政府决定谁有资格使用它。",
+        "effect": {
+          "free_commercial": 0.2,
+          "public_proprietary": 0.6,
+          "individual_center": 0.7,
+          "freedom_security": 0.8
+        },
+      "tags": {
+        "strongly_disagree": [
+          "anthropic_simp",
+          "safety_first"
+        ]
+      }
+    },
+    {
+      "id": 44,
+      "text": "安全研究员挖到的 0-day 漏洞，应该首选提交给官方换取几十万赏金并修复，而不是为了几百万卖给 NSO 这样的黑客军火商。",
+      "effect": {
+        "free_commercial": 0,
+        "public_proprietary": 0,
+        "individual_center": -0.2,
+        "freedom_security": -0.8
+      },
+      "tags": {}
     }
   ]
 }

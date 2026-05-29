@@ -3,6 +3,15 @@ import { AXES, AXE_LABELS } from '../utils/calculator';
 export default function Results({ results, onRestart }) {
   const { scores, ideologyMatches, topTags } = results;
 
+  const getShareUrl = () => {
+    const params = new URLSearchParams();
+    params.set('a', AXES.map(axis => scores[axis]).join(','));
+    if (topTags.length > 0) {
+      params.set('t', topTags.map(t => t.id).join(','));
+    }
+    return `${window.location.origin}${window.location.pathname}?${params.toString()}`;
+  };
+
   const getShareText = () => {
     const top3 = ideologyMatches.map(i => `${i.name}(${i.match}%)`).join('、');
     const tags = topTags.slice(0, 3).map(t => t.emoji + t.name).join(' ');
@@ -10,11 +19,14 @@ export default function Results({ results, onRestart }) {
   };
 
   const handleShare = async () => {
-    const text = getShareText();
+    const url = getShareUrl();
+    const text = getShareText() + '\n' + url;
     if (navigator.share) {
       try {
-        await navigator.share({ title: 'TechValues 测试结果', text });
-      } catch {}
+        await navigator.share({ title: 'TechValues 测试结果', text, url });
+      } catch {
+        // User cancelled share
+      }
     } else {
       await navigator.clipboard.writeText(text);
       alert('已复制到剪贴板！');
