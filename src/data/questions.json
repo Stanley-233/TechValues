@@ -11,11 +11,11 @@
       },
       "tags": {
         "strongly_agree": [
-          "linux_evangelist",
-          "copyleft_warrior"
+          "free_software_advocate",
+          "linux_evangelist"
         ],
-        "agree": [
-          "copyleft_warrior"
+        "strongly_disagree": [
+          "walled_garden_defender"
         ]
       }
     },
@@ -30,9 +30,6 @@
       },
       "tags": {
         "strongly_agree": [
-          "copyleft_warrior"
-        ],
-        "agree": [
           "copyleft_warrior"
         ]
       }
@@ -50,8 +47,8 @@
         "strongly_agree": [
           "self_host_king"
         ],
-        "agree": [
-          "self_host_king"
+        "strongly_disagree": [
+          "walled_garden_defender"
         ]
       }
     },
@@ -66,10 +63,12 @@
       },
       "tags": {
         "strongly_agree": [
-          "move_fast_breaker"
+          "ai_openness_advocate",
+          "e_acc"
         ],
-        "agree": [
-          "move_fast_breaker"
+        "strongly_disagree": [
+          "anthropic_simp",
+          "safety_first"
         ]
       }
     },
@@ -84,13 +83,12 @@
       },
       "tags": {
         "strongly_agree": [
-          "anthropic_simp"
-        ],
-        "agree": [
+          "safety_first",
           "anthropic_simp"
         ],
         "strongly_disagree": [
-          "privacy_absolutist"
+          "cypherpunk",
+          "e_acc"
         ]
       }
     },
@@ -105,11 +103,11 @@
       },
       "tags": {
         "strongly_agree": [
-          "privacy_absolutist",
-          "move_fast_breaker"
+          "decentralization_maximalist",
+          "cypherpunk"
         ],
-        "agree": [
-          "privacy_absolutist"
+        "strongly_disagree": [
+          "enterprise_chad"
         ]
       }
     },
@@ -122,21 +120,11 @@
         "individual_center": 0.4,
         "freedom_security": -0.2
       },
-      "tags": {
-        "strongly_agree": [
-          "walled_garden_defender"
-        ],
-        "agree": [
-          "walled_garden_defender"
-        ],
-        "strongly_disagree": [
-          "linux_evangelist"
-        ]
-      }
+      "tags": {}
     },
     {
       "id": 8,
-      "text": "执法部门为了打击恐怖主义和暗网犯罪，要求聊天软件提供提供聊天记录是合理的。",
+      "text": "执法部门为了打击恐怖主义和暗网犯罪，要求聊天软件提供聊天记录是合理的。",
       "effect": {
         "free_commercial": 0,
         "public_proprietary": -0.3,
@@ -145,10 +133,12 @@
       },
       "tags": {
         "strongly_agree": [
+          "safety_first",
           "enterprise_chad"
         ],
         "strongly_disagree": [
-          "privacy_absolutist"
+          "privacy_absolutist",
+          "cypherpunk"
         ]
       }
     },
@@ -163,7 +153,8 @@
       },
       "tags": {
         "strongly_agree": [
-          "move_fast_breaker"
+          "move_fast_breaker",
+          "e_acc"
         ],
         "strongly_disagree": [
           "ip_defender"
@@ -182,10 +173,8 @@
       "tags": {
         "strongly_agree": [
           "self_host_king",
+          "privacy_absolutist",
           "linux_evangelist"
-        ],
-        "agree": [
-          "self_host_king"
         ]
       }
     },
@@ -200,13 +189,11 @@
       },
       "tags": {
         "strongly_agree": [
-          "anthropic_simp"
-        ],
-        "agree": [
+          "safety_first",
           "anthropic_simp"
         ],
         "strongly_disagree": [
-          "move_fast_breaker"
+          "e_acc"
         ]
       }
     },
@@ -221,9 +208,7 @@
       },
       "tags": {
         "strongly_agree": [
-          "copyleft_warrior"
-        ],
-        "agree": [
+          "free_software_advocate",
           "copyleft_warrior"
         ]
       }
@@ -260,9 +245,6 @@
         "strongly_agree": [
           "rust_evangelist"
         ],
-        "agree": [
-          "rust_evangelist"
-        ],
         "strongly_disagree": [
           "move_fast_breaker"
         ]
@@ -274,21 +256,14 @@
       "effect": {
         "free_commercial": 0.0,
         "public_proprietary": -0.2,
-        "individual_center": -0.5,
-        "freedom_security": -0.7
+        "individual_center": -0.4,
+        "freedom_security": -0.8
       },
-      "tags": {
-        "strongly_agree": [
-          "enterprise_chad"
-        ],
-        "strongly_disagree": [
-          "privacy_absolutist"
-        ]
-      }
+      "tags": {}
     },
     {
       "id": 16,
-      "text": "因为电子商城并没有给用户真正的所有权，如 Steam 上买的游戏可以因为版权纠纷随时被官方删除，所以盗版和破解是一种道德的自卫。",
+      "text": "因为数字商城并没有给用户真正的所有权，如 Steam 上买的游戏可以因为版权纠纷随时被官方删除，所以盗版和破解是一种道德的自卫。",
       "effect": {
         "free_commercial": 0.7,
         "public_proprietary": 0.6,
@@ -297,11 +272,11 @@
       },
       "tags": {
         "strongly_agree": [
-          "copyleft_warrior",
-          "privacy_absolutist"
+          "free_software_advocate"
         ],
         "strongly_disagree": [
-          "ip_defender"
+          "ip_defender",
+          "walled_garden_defender"
         ]
       }
     },
@@ -316,8 +291,7 @@
       },
       "tags": {
         "strongly_agree": [
-          "linux_evangelist",
-          "copyleft_warrior"
+          "free_software_advocate"
         ],
         "strongly_disagree": [
           "walled_garden_defender"
@@ -335,7 +309,8 @@
       },
       "tags": {
         "strongly_agree": [
-          "enterprise_chad"
+          "enterprise_chad",
+          "tech_capitalist"
         ],
         "strongly_disagree": [
           "privacy_absolutist",
@@ -356,11 +331,9 @@
         "strongly_agree": [
           "ip_defender"
         ],
-        "agree": [
-          "ip_defender"
-        ],
         "strongly_disagree": [
-          "move_fast_breaker"
+          "move_fast_breaker",
+          "e_acc"
         ]
       }
     },
@@ -373,15 +346,7 @@
         "individual_center": 0.7,
         "freedom_security": 0.5
       },
-      "tags": {
-        "strongly_agree": [
-          "privacy_absolutist",
-          "self_host_king"
-        ],
-        "agree": [
-          "linux_evangelist"
-        ]
-      }
+      "tags": {}
     },
     {
       "id": 21,
@@ -394,11 +359,11 @@
       },
       "tags": {
         "strongly_agree": [
-          "privacy_absolutist",
-          "move_fast_breaker"
+          "cypherpunk",
+          "decentralization_maximalist"
         ],
         "strongly_disagree": [
-          "anthropic_simp"
+          "safety_first"
         ]
       }
     },
@@ -413,13 +378,12 @@
       },
       "tags": {
         "strongly_agree": [
-          "copyleft_warrior"
-        ],
-        "agree": [
+          "free_software_advocate",
           "copyleft_warrior"
         ],
         "strongly_disagree": [
-          "ip_defender"
+          "ip_defender",
+          "tech_capitalist"
         ]
       }
     },
@@ -435,6 +399,7 @@
       "tags": {
         "strongly_agree": [
           "linux_evangelist",
+          "free_software_advocate",
           "privacy_absolutist"
         ],
         "strongly_disagree": [
@@ -451,15 +416,7 @@
         "individual_center": 0.8,
         "freedom_security": 0.7
       },
-      "tags": {
-        "strongly_agree": [
-          "move_fast_breaker"
-        ],
-        "strongly_disagree": [
-          "enterprise_chad",
-          "copyleft_warrior"
-        ]
-      }
+      "tags": {}
     },
     {
       "id": 25,
@@ -470,15 +427,7 @@
         "individual_center": -0.5,
         "freedom_security": -0.8
       },
-      "tags": {
-        "strongly_agree": [
-          "anthropic_simp",
-          "enterprise_chad"
-        ],
-        "strongly_disagree": [
-          "move_fast_breaker"
-        ]
-      }
+      "tags": {}
     },
     {
       "id": 26,
@@ -489,15 +438,7 @@
         "individual_center": 0.8,
         "freedom_security": 0.6
       },
-      "tags": {
-        "strongly_agree": [
-          "linux_evangelist",
-          "rust_evangelist"
-        ],
-        "strongly_disagree": [
-          "enterprise_chad"
-        ]
-      }
+      "tags": {}
     },
     {
       "id": 27,
@@ -511,9 +452,6 @@
       "tags": {
         "strongly_agree": [
           "linux_evangelist"
-        ],
-        "agree": [
-          "linux_evangelist"
         ]
       }
     },
@@ -526,15 +464,7 @@
         "individual_center": -0.2,
         "freedom_security": 0.3
       },
-      "tags": {
-        "strongly_agree": [
-          "linux_evangelist",
-          "copyleft_warrior"
-        ],
-        "strongly_disagree": [
-          "enterprise_chad"
-        ]
-      }
+      "tags": {}
     },
     {
       "id": 29,
@@ -547,11 +477,12 @@
       },
       "tags": {
         "strongly_agree": [
-          "move_fast_breaker",
-          "enterprise_chad"
+          "tech_capitalist",
+          "e_acc",
+          "move_fast_breaker"
         ],
         "strongly_disagree": [
-          "ip_defender"
+          "safety_first"
         ]
       }
     },
@@ -564,17 +495,7 @@
         "individual_center": -0.7,
         "freedom_security": -0.4
       },
-      "tags": {
-        "strongly_agree": [
-          "enterprise_chad"
-        ],
-        "agree": [
-          "enterprise_chad"
-        ],
-        "strongly_disagree": [
-          "privacy_absolutist"
-        ]
-      }
+      "tags": {}
     },
     {
       "id": 31,
@@ -585,15 +506,7 @@
         "individual_center": 0.3,
         "freedom_security": 0.8
       },
-      "tags": {
-        "strongly_agree": [
-          "privacy_absolutist",
-          "move_fast_breaker"
-        ],
-        "strongly_disagree": [
-          "enterprise_chad"
-        ]
-      }
+      "tags": {}
     },
     {
       "id": 32,
@@ -606,10 +519,8 @@
       },
       "tags": {
         "strongly_agree": [
-          "privacy_absolutist",
-          "self_host_king"
-        ],
-        "agree": [
+          "cypherpunk",
+          "decentralization_maximalist",
           "privacy_absolutist"
         ]
       }
@@ -623,15 +534,7 @@
         "individual_center": 0.7,
         "freedom_security": 0
       },
-      "tags": {
-        "strongly_agree": [
-          "copyleft_warrior",
-          "linux_evangelist"
-        ],
-        "strongly_disagree": [
-          "walled_garden_defender"
-        ]
-      }
+      "tags": {}
     },
     {
       "id": 34,
@@ -642,14 +545,7 @@
         "individual_center": 0.6,
         "freedom_security": 0.5
       },
-      "tags": {
-        "strongly_agree": [
-          "anthropic_simp"
-        ],
-        "strongly_disagree": [
-          "enterprise_chad"
-        ]
-      }
+      "tags": {}
     },
     {
       "id": 35,
@@ -660,18 +556,7 @@
         "individual_center": -0.3,
         "freedom_security": -0.2
       },
-      "tags": {
-        "strongly_agree": [
-          "copyleft_warrior",
-          "linux_evangelist"
-        ],
-        "agree": [
-          "copyleft_warrior"
-        ],
-        "strongly_disagree": [
-          "enterprise_chad"
-        ]
-      }
+      "tags": {}
     },
     {
       "id": 36,
@@ -684,11 +569,12 @@
       },
       "tags": {
         "strongly_agree": [
-          "anthropic_simp"
+          "safety_first",
+          "regulation_fan"
         ],
         "strongly_disagree": [
-          "privacy_absolutist",
-          "move_fast_breaker"
+          "e_acc",
+          "cypherpunk"
         ]
       }
     },
@@ -703,10 +589,8 @@
       },
       "tags": {
         "strongly_agree": [
-          "self_host_king",
-          "linux_evangelist"
-        ],
-        "agree": [
+          "linux_evangelist",
+          "free_software_advocate",
           "self_host_king"
         ]
       }
@@ -722,9 +606,10 @@
       },
       "tags": {
         "strongly_agree": [
-          "move_fast_breaker"
+          "e_acc"
         ],
         "strongly_disagree": [
+          "safety_first",
           "anthropic_simp"
         ]
       }
@@ -738,18 +623,11 @@
         "individual_center": 0.6,
         "freedom_security": 0.4
       },
-      "tags": {
-        "strongly_agree": [
-          "copyleft_warrior"
-        ],
-        "strongly_disagree": [
-          "walled_garden_defender"
-        ]
-      }
+      "tags": {}
     },
     {
       "id": 40,
-      "text": "GitHub 选择配合当地法律，对中国区用户屏蔽部分敏感的开源项目是有必要的。",
+      "text": "GitHub 选择配合中国政府要求，对中国区用户屏蔽部分敏感的开源项目是有必要的。",
       "effect": {
         "free_commercial": -0.5,
         "public_proprietary": -0.4,
@@ -758,11 +636,12 @@
       },
       "tags": {
         "strongly_agree": [
-          "enterprise_chad"
+          "enterprise_chad",
+          "tech_capitalist"
         ],
         "strongly_disagree": [
-          "privacy_absolutist",
-          "linux_evangelist"
+          "cypherpunk",
+          "free_software_advocate"
         ]
       }
     },
@@ -771,23 +650,15 @@
       "text": "Linux 内核社区为了遵守美国政府的制裁令，将俄罗斯籍的底层代码维护者集体除名是必要之恶。",
       "effect": {
         "free_commercial": -0.5,
-        "public_proprietary": -0.7,
+        "public_proprietary": -0.6,
         "individual_center": -0.5,
         "freedom_security": -0.7
       },
-      "tags": {
-        "strongly_agree": [
-          "enterprise_chad"
-        ],
-        "strongly_disagree": [
-          "linux_evangelist",
-          "copyleft_warrior"
-        ]
-      }
+      "tags": {}
     },
     {
       "id": 42,
-      "text": "Anthropic 和 OpenAI 严厉封锁来自中国大陆等地区的 API 访问是合理的。为了防止前沿 AI 技术被用来增强对手的网络战或监控能力，AI 公司必须充当“看门人”。",
+      "text": "Anthropic 为了符合美国政策封锁来自中国大陆等地区的 API 访问是合理的。",
       "effect": {
         "free_commercial": -0.4,
         "public_proprietary": -0.7,
@@ -797,10 +668,11 @@
       "tags": {
         "strongly_agree": [
           "anthropic_simp",
-          "enterprise_chad"
+          "safety_first"
         ],
         "strongly_disagree": [
-          "move_fast_breaker"
+          "ai_openness_advocate",
+          "e_acc"
         ]
       }
     }

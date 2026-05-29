@@ -1,4 +1,3 @@
-import RadarChart from './RadarChart';
 import { AXES, AXE_LABELS } from '../utils/calculator';
 
 export default function Results({ results, onRestart }) {
@@ -28,7 +27,6 @@ export default function Results({ results, onRestart }) {
 
       <section className="results-section">
         <h3>四维立场</h3>
-        <RadarChart scores={scores} />
         <div className="axes-detail">
           {AXES.map(axis => (
             <div key={axis} className="axis-bar">
