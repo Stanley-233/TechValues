@@ -1,0 +1,136 @@
+{
+  "ideologies": [
+    {
+      "id": "free_software_purist",
+      "name": "自由软件原教旨主义者",
+      "desc": "Richard Stallman的精神继承者，认为软件自由是基本人权",
+      "stats": {
+        "free_commercial": 95,
+        "public_proprietary": 95,
+        "individual_center": 80,
+        "freedom_security": 85
+      }
+    },
+    {
+      "id": "open_source_pragmatist",
+      "name": "开源实用主义者",
+      "desc": "相信开源是更好的开发模式，但不排斥商业",
+      "stats": {
+        "free_commercial": 65,
+        "public_proprietary": 75,
+        "individual_center": 55,
+        "freedom_security": 60
+      }
+    },
+    {
+      "id": "tech_capitalist",
+      "name": "商业科技精英",
+      "desc": "技术应该由市场驱动，利润是创新的动力",
+      "stats": {
+        "free_commercial": 15,
+        "public_proprietary": 20,
+        "individual_center": 30,
+        "freedom_security": 40
+      }
+    },
+    {
+      "id": "decentralization_maximalist",
+      "name": "去中心化极端者",
+      "desc": "Web3信徒，认为一切都可以/应该去中心化",
+      "stats": {
+        "free_commercial": 70,
+        "public_proprietary": 80,
+        "individual_center": 95,
+        "freedom_security": 70
+      }
+    },
+    {
+      "id": "security_statist",
+      "name": "安全优先主义者",
+      "desc": "认为安全比自由更重要，支持适度监管",
+      "stats": {
+        "free_commercial": 30,
+        "public_proprietary": 25,
+        "individual_center": 20,
+        "freedom_security": 15
+      }
+    },
+    {
+      "id": "hacker_libertarian",
+      "name": "黑客自由派",
+      "desc": "信息自由，反对审查，探索系统边界是天赋人权",
+      "stats": {
+        "free_commercial": 60,
+        "public_proprietary": 70,
+        "individual_center": 90,
+        "freedom_security": 95
+      }
+    },
+    {
+      "id": "enterprise_architect",
+      "name": "企业架构师",
+      "desc": "稳定、可维护、商业支持才是企业需要的",
+      "stats": {
+        "free_commercial": 20,
+        "public_proprietary": 30,
+        "individual_center": 25,
+        "freedom_security": 35
+      }
+    },
+    {
+      "id": "indie_hacker",
+      "name": "独立开发者",
+      "desc": "一人公司，快速迭代，盈利优先",
+      "stats": {
+        "free_commercial": 45,
+        "public_proprietary": 50,
+        "individual_center": 85,
+        "freedom_security": 65
+      }
+    },
+    {
+      "id": "ai_safety_advocate",
+      "name": "AI安全倡导者",
+      "desc": "AI发展需要谨慎，安全研究比开源更重要",
+      "stats": {
+        "free_commercial": 35,
+        "public_proprietary": 20,
+        "individual_center": 25,
+        "freedom_security": 15
+      }
+    },
+    {
+      "id": "cypherpunk",
+      "name": "赛博朋克",
+      "desc": "用密码学保护自由，代码即法律",
+      "stats": {
+        "free_commercial": 55,
+        "public_proprietary": 75,
+        "individual_center": 90,
+        "freedom_security": 90
+      }
+    },
+    {
+      "id": "cloud_native",
+      "name": "云原生信徒",
+      "desc": "一切皆可容器化，K8s是真理",
+      "stats": {
+        "free_commercial": 25,
+        "public_proprietary": 35,
+        "individual_center": 20,
+        "freedom_security": 30
+      }
+    },
+    {
+      "id": "digital_nomad",
+      "name": "数字游民",
+      "desc": "工具效率优先，混合使用各种方案",
+      "stats": {
+        "free_commercial": 50,
+        "public_proprietary": 55,
+        "individual_center": 70,
+        "freedom_security": 55
+      }
+    }
+  ]
+}
