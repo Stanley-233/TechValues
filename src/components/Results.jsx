@@ -12,25 +12,10 @@ export default function Results({ results, onRestart }) {
     return `${window.location.origin}${window.location.pathname}?${params.toString()}`;
   };
 
-  const getShareText = () => {
-    const top3 = ideologyMatches.map(i => `${i.name}(${i.match}%)`).join('、');
-    const tags = topTags.slice(0, 3).map(t => t.emoji + t.name).join(' ');
-    return `我的科技理念测试结果：\n${top3}\n\n标签：${tags}\n\n来测测你的：`;
-  };
-
   const handleShare = async () => {
     const url = getShareUrl();
-    const text = getShareText() + '\n' + url;
-    if (navigator.share) {
-      try {
-        await navigator.share({ title: 'TechValues 测试结果', text, url });
-      } catch {
-        // User cancelled share
-      }
-    } else {
-      await navigator.clipboard.writeText(text);
-      alert('已复制到剪贴板！');
-    }
+    await navigator.clipboard.writeText(url);
+    alert('链接已复制到剪贴板！');
   };
 
   return (
@@ -94,7 +79,7 @@ export default function Results({ results, onRestart }) {
 
       <div className="results-actions">
         <button className="btn-share" onClick={handleShare}>
-          分享结果
+          复制链接
         </button>
         <button className="btn-restart" onClick={onRestart}>
           重新测试

@@ -108,7 +108,7 @@
     },
     {
       "id": 7,
-      "text": "即使苹果生态更安全稳定，用户也应该有权绕过 App Store 安装软件。。",
+      "text": "即使苹果生态更安全稳定，用户也应该有权绕过 App Store 安装软件。",
       "effect": {
         "free_commercial": 0.2,
         "public_proprietary": 0.7,
