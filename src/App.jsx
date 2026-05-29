@@ -40,7 +40,7 @@ function App() {
               <li><span className="dim-tag dim-4">自由 vs 安全</span></li>
             </ul>
             <p className="hint">
-              没有正确或错误的答案，请选择最符合你想法的选项。
+              没有正确或错误的答案，请选择第一时间最符合你想法的选项。
             </p>
             <button className="btn-start" onClick={() => setPhase('quiz')}>
               开始测试

@@ -59,6 +59,54 @@
       "name": "电子版权斗士",
       "desc": "坚决抵制 AI 爬虫和盗版，誓死捍卫创作者的知识产权",
       "emoji": "⚖️"
+    },
+    {
+      "id": "free_software_advocate",
+      "name": "自由软件传教士",
+      "desc": "把用户自由看得比商业便利更重要，看到闭源黑盒就想掏出 GPL",
+      "emoji": "🕊️"
+    },
+    {
+      "id": "cypherpunk",
+      "name": "密码朋克",
+      "desc": "隐私、加密、匿名网络和抗审查是数字世界的基本人权",
+      "emoji": "🧅"
+    },
+    {
+      "id": "safety_first",
+      "name": "安全刹车党",
+      "desc": "宁愿技术慢一点，也不能让 AI、漏洞和平台风险失控",
+      "emoji": "🛑"
+    },
+    {
+      "id": "e_acc",
+      "name": "有效加速主义者",
+      "desc": "Keep building；技术进步本身就是解决问题的最大力量",
+      "emoji": "⚡"
+    },
+    {
+      "id": "ai_openness_advocate",
+      "name": "开源模型布道者",
+      "desc": "相信开放权重、开放论文和开放工具能让 AI 更公平、更可控",
+      "emoji": "🤗"
+    },
+    {
+      "id": "regulation_fan",
+      "name": "监管铁拳爱好者",
+      "desc": "面对平台垄断、AI 风险和数据滥用时，支持政府或公共规则介入",
+      "emoji": "🔨"
+    },
+    {
+      "id": "decentralization_maximalist",
+      "name": "去中心化原教旨",
+      "desc": "不相信中心化平台，链上治理、DID 和抗审查网络才是未来",
+      "emoji": "🕸️"
+    },
+    {
+      "id": "tech_capitalist",
+      "name": "ARR 炼金术士",
+      "desc": "技术当然要变现，护城河、平台税、增长曲线和商业闭环才是硬道理",
+      "emoji": "💰"
     }
   ]
 }

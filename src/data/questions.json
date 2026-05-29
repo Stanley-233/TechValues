@@ -3,265 +3,805 @@
     {
       "id": 1,
       "text": "像 Photoshop、Windows 这样的闭源商业软件本质上是对用户的剥削，大众应该全面转向开源软件替代品。",
-      "effect": { "free_commercial": 1.0, "public_proprietary": 0.5, "individual_center": 0.2, "freedom_security": 0 },
-      "tags": { "strongly_agree": ["free_software_advocate", "linux_evangelist"], "agree": ["free_software_advocate"] }
+      "effect": {
+        "free_commercial": 1.0,
+        "public_proprietary": 0.5,
+        "individual_center": 0.2,
+        "freedom_security": 0
+      },
+      "tags": {
+        "strongly_agree": [
+          "linux_evangelist",
+          "copyleft_warrior"
+        ],
+        "agree": [
+          "copyleft_warrior"
+        ]
+      }
     },
     {
       "id": 2,
       "text": "相比于宽松的 MIT 或 Apache 协议，GPL 这种要求衍生代码也必须开源的“传染性”协议才能真正保护开源生态不被大厂吸血。",
-      "effect": { "free_commercial": 0.8, "public_proprietary": 0.9, "individual_center": -0.2, "freedom_security": -0.3 },
-      "tags": { "strongly_agree": ["copyleft_warrior"], "agree": ["copyleft_warrior"] }
+      "effect": {
+        "free_commercial": 0.8,
+        "public_proprietary": 0.9,
+        "individual_center": -0.2,
+        "freedom_security": -0.3
+      },
+      "tags": {
+        "strongly_agree": [
+          "copyleft_warrior"
+        ],
+        "agree": [
+          "copyleft_warrior"
+        ]
+      }
     },
     {
       "id": 3,
       "text": "SaaS（软件即服务）和强制订阅制是商业上的毒瘤，我更愿意为买断制软件付费，或者寻找开源平替。",
-      "effect": { "free_commercial": 0.5, "public_proprietary": 0.4, "individual_center": 0.7, "freedom_security": 0 },
-      "tags": { "strongly_agree": ["self_host_king"], "agree": [] }
+      "effect": {
+        "free_commercial": 0.5,
+        "public_proprietary": 0.4,
+        "individual_center": 0.7,
+        "freedom_security": 0
+      },
+      "tags": {
+        "strongly_agree": [
+          "self_host_king"
+        ],
+        "agree": [
+          "self_host_king"
+        ]
+      }
     },
     {
       "id": 4,
       "text": "Meta、DeepSeek 将模型开源，比 OpenAI 坚持闭源并提供 API 的做法对人类社会的贡献更大，即使开源可能带来滥用风险。",
-      "effect": { "free_commercial": 0.5, "public_proprietary": 1.0, "individual_center": 0.6, "freedom_security": 0.6 },
-      "tags": { "strongly_agree": ["ai_openness_advocate"], "agree": ["ai_openness_advocate"] }
+      "effect": {
+        "free_commercial": 0.5,
+        "public_proprietary": 1.0,
+        "individual_center": 0.6,
+        "freedom_security": 0.6
+      },
+      "tags": {
+        "strongly_agree": [
+          "move_fast_breaker"
+        ],
+        "agree": [
+          "move_fast_breaker"
+        ]
+      }
     },
     {
       "id": 5,
       "text": "大模型在系统层面拒绝生成政治敏感、暴力或 NSFW（色情）图像是极其必要的，这不是过度审查。",
-      "effect": { "free_commercial": -0.2, "public_proprietary": -0.4, "individual_center": -0.7, "freedom_security": -0.9 },
-      "tags": { "strongly_agree": ["safety_first", "content_moderator"], "agree": ["safety_first"] }
+      "effect": {
+        "free_commercial": -0.2,
+        "public_proprietary": -0.4,
+        "individual_center": -0.7,
+        "freedom_security": -0.9
+      },
+      "tags": {
+        "strongly_agree": [
+          "anthropic_simp"
+        ],
+        "agree": [
+          "anthropic_simp"
+        ],
+        "strongly_disagree": [
+          "privacy_absolutist"
+        ]
+      }
     },
     {
       "id": 6,
       "text": "Web3 和加密货币虽然现在泡沫很大，但区块链技术是打破传统互联网巨头数据垄断的唯一出路。",
-      "effect": { "free_commercial": 0.3, "public_proprietary": 0.2, "individual_center": 0.9, "freedom_security": 0.5 },
-      "tags": { "strongly_agree": ["decentralization_maximalist", "blockchain_maxi"], "agree": ["decentralization_maximalist"] }
+      "effect": {
+        "free_commercial": 0.3,
+        "public_proprietary": 0.2,
+        "individual_center": 0.9,
+        "freedom_security": 0.5
+      },
+      "tags": {
+        "strongly_agree": [
+          "privacy_absolutist",
+          "move_fast_breaker"
+        ],
+        "agree": [
+          "privacy_absolutist"
+        ]
+      }
     },
     {
       "id": 7,
       "text": "欧盟强制要求苹果 iOS 开放第三方应用商店（侧载）并统一 Type-C 接口，是粗暴干预自由市场的恶政。",
-      "effect": { "free_commercial": -0.6, "public_proprietary": -0.5, "individual_center": 0.4, "freedom_security": -0.2 },
-      "tags": { "strongly_agree": ["free_market_techbro", "walled_garden_defender"], "agree": ["walled_garden_defender"] }
+      "effect": {
+        "free_commercial": -0.6,
+        "public_proprietary": -0.5,
+        "individual_center": 0.4,
+        "freedom_security": -0.2
+      },
+      "tags": {
+        "strongly_agree": [
+          "walled_garden_defender"
+        ],
+        "agree": [
+          "walled_garden_defender"
+        ],
+        "strongly_disagree": [
+          "linux_evangelist"
+        ]
+      }
     },
     {
       "id": 8,
       "text": "执法部门为了打击恐怖主义和暗网犯罪，要求聊天软件提供提供聊天记录是合理的。",
-      "effect": { "free_commercial": 0, "public_proprietary": -0.3, "individual_center": -0.8, "freedom_security": -1.0 },
-      "tags": { "strongly_agree": ["surveillance_supporter"], "strongly_disagree": ["privacy_absolutist", "cypherpunk"] }
+      "effect": {
+        "free_commercial": 0,
+        "public_proprietary": -0.3,
+        "individual_center": -0.8,
+        "freedom_security": -1.0
+      },
+      "tags": {
+        "strongly_agree": [
+          "enterprise_chad"
+        ],
+        "strongly_disagree": [
+          "privacy_absolutist"
+        ]
+      }
     },
     {
       "id": 9,
       "text": "AI 公司直接爬取 Github 代码来训练大模型，属于合理使用，不应被起诉侵权。",
-      "effect": { "free_commercial": -0.4, "public_proprietary": 0.8, "individual_center": -0.5, "freedom_security": 0.6 },
-      "tags": { "strongly_agree": ["tech_optimist", "move_fast_breaker"], "strongly_disagree": ["ip_defender"] }
+      "effect": {
+        "free_commercial": -0.4,
+        "public_proprietary": 0.8,
+        "individual_center": -0.5,
+        "freedom_security": 0.6
+      },
+      "tags": {
+        "strongly_agree": [
+          "move_fast_breaker"
+        ],
+        "strongly_disagree": [
+          "ip_defender"
+        ]
+      }
     },
     {
       "id": 10,
       "text": "我宁愿花周末时间自己折腾软路由、Docker 和 Nextcloud，也不想把个人照片和文件图省事丢到百度网盘或 iCloud 里。",
-      "effect": { "free_commercial": 0.4, "public_proprietary": 0.6, "individual_center": 0.9, "freedom_security": 0.5 },
-      "tags": { "strongly_agree": ["self_host_king", "terminal_chad"], "agree": ["self_host_king"] }
+      "effect": {
+        "free_commercial": 0.4,
+        "public_proprietary": 0.6,
+        "individual_center": 0.9,
+        "freedom_security": 0.5
+      },
+      "tags": {
+        "strongly_agree": [
+          "self_host_king",
+          "linux_evangelist"
+        ],
+        "agree": [
+          "self_host_king"
+        ]
+      }
     },
     {
       "id": 11,
       "text": "如果不彻底解决 AI 对齐（即 AI 符合使用者意图）问题，贸然发布 AGI 级别的模型将导致人类灭绝。",
-      "effect": { "free_commercial": -0.2, "public_proprietary": -0.5, "individual_center": -0.4, "freedom_security": -0.8 },
-      "tags": { "strongly_agree": ["effective_altruist", "anthropic_simp"], "agree": ["safety_first"] }
+      "effect": {
+        "free_commercial": -0.2,
+        "public_proprietary": -0.5,
+        "individual_center": -0.4,
+        "freedom_security": -0.8
+      },
+      "tags": {
+        "strongly_agree": [
+          "anthropic_simp"
+        ],
+        "agree": [
+          "anthropic_simp"
+        ],
+        "strongly_disagree": [
+          "move_fast_breaker"
+        ]
+      }
     },
     {
       "id": 12,
       "text": "Aaron Swartz（因从学术数据库下载大量论文面临重刑而自杀）是一位伟大的烈士，学术论文本就不该被知网等企业垄断。",
-      "effect": { "free_commercial": 0.8, "public_proprietary": 0.9, "individual_center": 0.7, "freedom_security": 0.8 },
-      "tags": { "strongly_agree": ["hacker_libertarian", "copyleft_warrior"], "agree": ["hacker_libertarian"] }
+      "effect": {
+        "free_commercial": 0.8,
+        "public_proprietary": 0.9,
+        "individual_center": 0.7,
+        "freedom_security": 0.8
+      },
+      "tags": {
+        "strongly_agree": [
+          "copyleft_warrior"
+        ],
+        "agree": [
+          "copyleft_warrior"
+        ]
+      }
     },
     {
       "id": 13,
       "text": "在企业级开发中，Java、C# 这种拥有强大商业支持和稳定生态的语言，永远比新兴的“玩具语言”更值得信赖。",
-      "effect": { "free_commercial": -0.5, "public_proprietary": -0.2, "individual_center": -0.6, "freedom_security": -0.4 },
-      "tags": { "strongly_agree": ["enterprise_chad"], "strongly_disagree": ["rust_evangelist", "move_fast_breaker"] }
+      "effect": {
+        "free_commercial": -0.5,
+        "public_proprietary": -0.2,
+        "individual_center": -0.6,
+        "freedom_security": -0.4
+      },
+      "tags": {
+        "strongly_agree": [
+          "enterprise_chad"
+        ],
+        "strongly_disagree": [
+          "rust_evangelist",
+          "move_fast_breaker"
+        ]
+      }
     },
     {
       "id": 14,
       "text": "代码写得是否优雅、内存是否安全（比如坚持用 Rust 重写），比项目能否快速上线抢占市场重要得多。",
-      "effect": { "free_commercial": 0.2, "public_proprietary": 0.1, "individual_center": 0.4, "freedom_security": -0.1 },
-      "tags": { "strongly_agree": ["rust_evangelist", "craftsman"], "strongly_disagree": ["move_fast_breaker", "enterprise_chad"] }
+      "effect": {
+        "free_commercial": 0.2,
+        "public_proprietary": 0.1,
+        "individual_center": 0.4,
+        "freedom_security": -0.1
+      },
+      "tags": {
+        "strongly_agree": [
+          "rust_evangelist"
+        ],
+        "agree": [
+          "rust_evangelist"
+        ],
+        "strongly_disagree": [
+          "move_fast_breaker"
+        ]
+      }
     },
     {
       "id": 15,
       "text": "Twitter 封禁特朗普是为了捍卫自由民主的必要之恶。",
-      "effect": { "free_commercial": 0.0, "public_proprietary": 0.0, "individual_center": 0.4, "freedom_security": 0.8 },
-      "tags": { "strongly_agree": ["effective_altruist"], "agree": [] }
+      "effect": {
+        "free_commercial": 0.0,
+        "public_proprietary": -0.2,
+        "individual_center": -0.5,
+        "freedom_security": -0.7
+      },
+      "tags": {
+        "strongly_agree": [
+          "enterprise_chad"
+        ],
+        "strongly_disagree": [
+          "privacy_absolutist"
+        ]
+      }
     },
     {
       "id": 16,
       "text": "因为电子商城并没有给用户真正的所有权，如 Steam 上买的游戏可以因为版权纠纷随时被官方删除，所以盗版和破解是一种道德的自卫。",
-      "effect": { "free_commercial": 0.7, "public_proprietary": 0.6, "individual_center": 0.9, "freedom_security": 0.8 },
-      "tags": { "strongly_agree": ["hacker_libertarian", "ip_defender"], "agree": ["copyleft_warrior"] }
+      "effect": {
+        "free_commercial": 0.7,
+        "public_proprietary": 0.6,
+        "individual_center": 0.9,
+        "freedom_security": 0.8
+      },
+      "tags": {
+        "strongly_agree": [
+          "copyleft_warrior",
+          "privacy_absolutist"
+        ],
+        "strongly_disagree": [
+          "ip_defender"
+        ]
+      }
     },
     {
       "id": 17,
       "text": "苹果或三星在硬件上加芯片锁，阻止用户自己或第三方更换零件，是纯粹的商业作恶。",
-      "effect": { "free_commercial": 0.6, "public_proprietary": 0.5, "individual_center": 0.8, "freedom_security": 0.4 },
-      "tags": { "strongly_agree": ["free_software_advocate"], "strongly_disagree": ["walled_garden_defender"] }
+      "effect": {
+        "free_commercial": 0.6,
+        "public_proprietary": 0.5,
+        "individual_center": 0.8,
+        "freedom_security": 0.4
+      },
+      "tags": {
+        "strongly_agree": [
+          "linux_evangelist",
+          "copyleft_warrior"
+        ],
+        "strongly_disagree": [
+          "walled_garden_defender"
+        ]
+      }
     },
     {
       "id": 18,
       "text": "VS Code、Ubuntu 等软件默认收集用户使用数据是为了改善产品，抗拒遥测是技术宅的被迫害妄想症。",
-      "effect": { "free_commercial": -0.3, "public_proprietary": -0.2, "individual_center": -0.6, "freedom_security": -0.5 },
-      "tags": { "strongly_agree": ["enterprise_chad", "tech_neutralist"], "strongly_disagree": ["privacy_absolutist", "linux_evangelist"] }
+      "effect": {
+        "free_commercial": -0.3,
+        "public_proprietary": -0.2,
+        "individual_center": -0.6,
+        "freedom_security": -0.5
+      },
+      "tags": {
+        "strongly_agree": [
+          "enterprise_chad"
+        ],
+        "strongly_disagree": [
+          "privacy_absolutist",
+          "linux_evangelist"
+        ]
+      }
     },
     {
       "id": 19,
       "text": "AI 公司未经许可，直接爬取 ArtStation 或 Pixiv 上的画作来训练生图模型，本质上是对人类创作者的剽窃，必须予以严惩。",
-      "effect": { "free_commercial": 0.5, "public_proprietary": -0.7, "individual_center": 0.8, "freedom_security": -0.6 },
-      "tags": { 
-        "strongly_agree": ["ip_defender", "craftsman"], 
-        "strongly_disagree": ["move_fast_breaker", "e_acc"] 
+      "effect": {
+        "free_commercial": 0.5,
+        "public_proprietary": -0.7,
+        "individual_center": 0.8,
+        "freedom_security": -0.6
+      },
+      "tags": {
+        "strongly_agree": [
+          "ip_defender"
+        ],
+        "agree": [
+          "ip_defender"
+        ],
+        "strongly_disagree": [
+          "move_fast_breaker"
+        ]
       }
     },
     {
       "id": 20,
       "text": "Cloudflare 等 CDN 提供商的大量验证码和反爬虫机制，虽然防住了黑客，但也杀死了互联网的开放性，让个人开发者寸步难行。",
-      "effect": { "free_commercial": 0.4, "public_proprietary": 0.6, "individual_center": 0.7, "freedom_security": 0.5 },
-      "tags": { "strongly_agree": ["hacker_libertarian"], "agree": ["open_source_zealot"] }
+      "effect": {
+        "free_commercial": 0.4,
+        "public_proprietary": 0.6,
+        "individual_center": 0.7,
+        "freedom_security": 0.5
+      },
+      "tags": {
+        "strongly_agree": [
+          "privacy_absolutist",
+          "self_host_king"
+        ],
+        "agree": [
+          "linux_evangelist"
+        ]
+      }
     },
     {
       "id": 21,
       "text": "如果一个智能合约（区块链上的一种自动程序）因为代码漏洞被黑客卷走资金，那就该黑客拿走，强行回滚链上数据违背了去中心化精神。",
-      "effect": { "free_commercial": 0, "public_proprietary": 0, "individual_center": 0.9, "freedom_security": 0.9 },
-      "tags": { "strongly_agree": ["cypherpunk", "blockchain_maxi"], "disagree": ["safety_first"] }
+      "effect": {
+        "free_commercial": 0,
+        "public_proprietary": 0,
+        "individual_center": 0.9,
+        "freedom_security": 0.9
+      },
+      "tags": {
+        "strongly_agree": [
+          "privacy_absolutist",
+          "move_fast_breaker"
+        ],
+        "strongly_disagree": [
+          "anthropic_simp"
+        ]
+      }
     },
     {
       "id": 22,
       "text": "软件专利纯粹是专利流氓讹钱的工具，应该在全球范围内彻底废除。",
-      "effect": { "free_commercial": 0.8, "public_proprietary": 0.7, "individual_center": 0.4, "freedom_security": 0.5 },
-      "tags": { "strongly_agree": ["patent_abolisher"], "agree": ["copyleft_warrior"] }
+      "effect": {
+        "free_commercial": 0.8,
+        "public_proprietary": 0.7,
+        "individual_center": 0.4,
+        "freedom_security": 0.5
+      },
+      "tags": {
+        "strongly_agree": [
+          "copyleft_warrior"
+        ],
+        "agree": [
+          "copyleft_warrior"
+        ],
+        "strongly_disagree": [
+          "ip_defender"
+        ]
+      }
     },
     {
       "id": 23,
       "text": "Chrome 浏览器内核的垄断对 Web 标准是毁灭性的，每个懂技术的开发者都有义务使用并推荐自由的 Firefox。",
-      "effect": { "free_commercial": 0.6, "public_proprietary": 0.7, "individual_center": 0.6, "freedom_security": 0.2 },
-      "tags": { "strongly_agree": ["free_software_advocate", "privacy_absolutist"], "strongly_disagree": ["pragmatist"] }
+      "effect": {
+        "free_commercial": 0.6,
+        "public_proprietary": 0.7,
+        "individual_center": 0.6,
+        "freedom_security": 0.2
+      },
+      "tags": {
+        "strongly_agree": [
+          "linux_evangelist",
+          "privacy_absolutist"
+        ],
+        "strongly_disagree": [
+          "enterprise_chad"
+        ]
+      }
     },
     {
       "id": 24,
       "text": "开源项目的核心维护者如果迟迟拿不到商业公司的赞助，有权在自己的代码里下毒来抗议白嫖。",
-      "effect": { "free_commercial": -0.6, "public_proprietary": -0.5, "individual_center": 0.8, "freedom_security": 0.7 },
-      "tags": { "strongly_agree": ["ip_defender"], "strongly_disagree": ["enterprise_chad"] }
+      "effect": {
+        "free_commercial": -0.6,
+        "public_proprietary": -0.5,
+        "individual_center": 0.8,
+        "freedom_security": 0.7
+      },
+      "tags": {
+        "strongly_agree": [
+          "move_fast_breaker"
+        ],
+        "strongly_disagree": [
+          "enterprise_chad",
+          "copyleft_warrior"
+        ]
+      }
     },
     {
       "id": 25,
       "text": "安全研究员挖到的 0-day 漏洞，应该首选提交给官方换取几十万赏金并修复，而不是为了几百万卖给 NSO 这样的黑客军火商。",
-      "effect": { "free_commercial": 0, "public_proprietary": 0, "individual_center": -0.5, "freedom_security": -0.8 },
-      "tags": { "strongly_agree": ["effective_altruist", "safety_first"], "strongly_disagree": ["free_market_techbro", "cypherpunk"] }
+      "effect": {
+        "free_commercial": 0,
+        "public_proprietary": 0,
+        "individual_center": -0.5,
+        "freedom_security": -0.8
+      },
+      "tags": {
+        "strongly_agree": [
+          "anthropic_simp",
+          "enterprise_chad"
+        ],
+        "strongly_disagree": [
+          "move_fast_breaker"
+        ]
+      }
     },
     {
       "id": 26,
       "text": "Agile（敏捷开发）、Scrum、Jira 这种东西并不是为了提高软件质量，而是资本家用来微观管理和监控程序员产出的电子皮鞭。",
-      "effect": { "free_commercial": 0.3, "public_proprietary": 0, "individual_center": 0.8, "freedom_security": 0.6 },
-      "tags": { "strongly_agree": ["craftsman", "hacker_libertarian"], "strongly_disagree": ["enterprise_chad"] }
+      "effect": {
+        "free_commercial": 0.3,
+        "public_proprietary": 0,
+        "individual_center": 0.8,
+        "freedom_security": 0.6
+      },
+      "tags": {
+        "strongly_agree": [
+          "linux_evangelist",
+          "rust_evangelist"
+        ],
+        "strongly_disagree": [
+          "enterprise_chad"
+        ]
+      }
     },
     {
       "id": 27,
       "text": "鼠标和图形界面极大降低了操作上限，纯命令行才是人机交互最纯粹、最高效的方式。",
-      "effect": { "free_commercial": 0.2, "public_proprietary": 0, "individual_center": 0.7, "freedom_security": 0 },
-      "tags": { "strongly_agree": ["terminal_chad", "unix_philosopher"], "agree": ["linux_evangelist"] }
+      "effect": {
+        "free_commercial": 0.2,
+        "public_proprietary": 0,
+        "individual_center": 0.7,
+        "freedom_security": 0
+      },
+      "tags": {
+        "strongly_agree": [
+          "linux_evangelist"
+        ],
+        "agree": [
+          "linux_evangelist"
+        ]
+      }
     },
     {
       "id": 28,
       "text": "Nvidia 在 AI 算力上的 CUDA 护城河阻碍了 AI 普及，开源社区和华为等硬件厂商必须合力用 Triton、ROCm 等方案打破它的垄断。",
-      "effect": { "free_commercial": 0.5, "public_proprietary": 0.7, "individual_center": -0.2, "freedom_security": 0.3 },
-      "tags": { "strongly_agree": ["open_source_zealot"], "disagree": ["tech_capitalist"] }
+      "effect": {
+        "free_commercial": 0.5,
+        "public_proprietary": 0.7,
+        "individual_center": -0.2,
+        "freedom_security": 0.3
+      },
+      "tags": {
+        "strongly_agree": [
+          "linux_evangelist",
+          "copyleft_warrior"
+        ],
+        "strongly_disagree": [
+          "enterprise_chad"
+        ]
+      }
     },
     {
       "id": 29,
       "text": "如果 AI 能替代初级程序员或外包画师，那说明他们的工作本身就没有创造力，技术淘汰他们是社会的进步。",
-      "effect": { "free_commercial": -0.5, "public_proprietary": -0.2, "individual_center": -0.4, "freedom_security": 0.7 },
-      "tags": { "strongly_agree": ["tech_capitalist", "musk_fanboy"], "strongly_disagree": ["human_augmentation"] }
+      "effect": {
+        "free_commercial": -0.5,
+        "public_proprietary": -0.2,
+        "individual_center": -0.4,
+        "freedom_security": 0.7
+      },
+      "tags": {
+        "strongly_agree": [
+          "move_fast_breaker",
+          "enterprise_chad"
+        ],
+        "strongly_disagree": [
+          "ip_defender"
+        ]
+      }
     },
     {
       "id": 30,
       "text": "比起冗长的民主投票，像 Linux 或者 Python 项目那种“终身仁慈独裁者（BDFL）”能让开源项目发展得更好。",
-      "effect": { "free_commercial": 0, "public_proprietary": 0, "individual_center": -0.7, "freedom_security": -0.4 },
-      "tags": { "strongly_agree": ["pragmatist"], "strongly_disagree": ["decentralization_maximalist"] }
+      "effect": {
+        "free_commercial": 0,
+        "public_proprietary": 0,
+        "individual_center": -0.7,
+        "freedom_security": -0.4
+      },
+      "tags": {
+        "strongly_agree": [
+          "enterprise_chad"
+        ],
+        "agree": [
+          "enterprise_chad"
+        ],
+        "strongly_disagree": [
+          "privacy_absolutist"
+        ]
+      }
     },
     {
       "id": 31,
       "text": "政府不应该以“国家安全”或“数据流向敌国”为由，去封禁 TikTok 这样的热门跨国应用，这是对自由市场的践踏。",
-      "effect": { "free_commercial": 0, "public_proprietary": 0, "individual_center": 0.3, "freedom_security": 0.8 },
-      "tags": { "strongly_agree": ["free_market_techbro"], "strongly_disagree": ["surveillance_supporter"] }
+      "effect": {
+        "free_commercial": 0,
+        "public_proprietary": 0,
+        "individual_center": 0.3,
+        "freedom_security": 0.8
+      },
+      "tags": {
+        "strongly_agree": [
+          "privacy_absolutist",
+          "move_fast_breaker"
+        ],
+        "strongly_disagree": [
+          "enterprise_chad"
+        ]
+      }
     },
     {
       "id": 32,
       "text": "我们在互联网上使用的身份验证（如“使用微信登录”）是畸形的。我们需要钱包签名的去中心化身份（DID）。",
-      "effect": { "free_commercial": 0.4, "public_proprietary": 0.5, "individual_center": 0.9, "freedom_security": 0.6 },
-      "tags": { "strongly_agree": ["cypherpunk", "blockchain_maxi"], "agree": ["privacy_absolutist"] }
+      "effect": {
+        "free_commercial": 0.4,
+        "public_proprietary": 0.5,
+        "individual_center": 0.9,
+        "freedom_security": 0.6
+      },
+      "tags": {
+        "strongly_agree": [
+          "privacy_absolutist",
+          "self_host_king"
+        ],
+        "agree": [
+          "privacy_absolutist"
+        ]
+      }
     },
     {
       "id": 33,
       "text": "宝马在车里内置座椅加热硬件却要求付费解锁，或者惠普打印机阻止用户使用第三方墨盒，是晚期资本主义的恶臭，必须立法禁止。",
-      "effect": { "free_commercial": 0.6, "public_proprietary": 0.3, "individual_center": 0.7, "freedom_security": 0 },
-      "tags": { "strongly_agree": ["free_software_advocate", "regulation_fan"], "strongly_disagree": ["free_market_techbro"] }
+      "effect": {
+        "free_commercial": 0.6,
+        "public_proprietary": 0.3,
+        "individual_center": 0.7,
+        "freedom_security": 0
+      },
+      "tags": {
+        "strongly_agree": [
+          "copyleft_warrior",
+          "linux_evangelist"
+        ],
+        "strongly_disagree": [
+          "walled_garden_defender"
+        ]
+      }
     },
     {
       "id": 34,
       "text": "科技公司的员工有权因为道德原因拒绝编写某些代码。",
-      "effect": { "free_commercial": 0, "public_proprietary": 0, "individual_center": 0.6, "freedom_security": 0.5 },
-      "tags": { "strongly_agree": ["effective_altruist", "tech_neutralist"], "strongly_disagree": ["enterprise_chad"] }
+      "effect": {
+        "free_commercial": 0,
+        "public_proprietary": 0,
+        "individual_center": 0.6,
+        "freedom_security": 0.5
+      },
+      "tags": {
+        "strongly_agree": [
+          "anthropic_simp"
+        ],
+        "strongly_disagree": [
+          "enterprise_chad"
+        ]
+      }
     },
     {
       "id": 35,
       "text": "网络中立性必须被维护，运营商（ISP）绝不能向视频软件或游戏公司收取“网络快车道”的过路费。",
-      "effect": { "free_commercial": 0.5, "public_proprietary": 0.8, "individual_center": -0.3, "freedom_security": -0.2 },
-      "tags": { "strongly_agree": ["regulation_fan", "public_infrastructure"], "agree": ["free_software_advocate"] }
+      "effect": {
+        "free_commercial": 0.5,
+        "public_proprietary": 0.8,
+        "individual_center": -0.3,
+        "freedom_security": -0.2
+      },
+      "tags": {
+        "strongly_agree": [
+          "copyleft_warrior",
+          "linux_evangelist"
+        ],
+        "agree": [
+          "copyleft_warrior"
+        ],
+        "strongly_disagree": [
+          "enterprise_chad"
+        ]
+      }
     },
     {
       "id": 36,
       "text": "Deepfake 技术正在毁掉网络信任和个人名誉，所有能够生成高度逼真人脸的开源模型都应该受到政府的严格管制或许可。",
-      "effect": { "free_commercial": -0.4, "public_proprietary": -0.8, "individual_center": -0.6, "freedom_security": -0.9 },
-      "tags": { "strongly_agree": ["safety_first", "regulation_fan"], "strongly_disagree": ["hacker_libertarian"] }
+      "effect": {
+        "free_commercial": -0.4,
+        "public_proprietary": -0.8,
+        "individual_center": -0.6,
+        "freedom_security": -0.9
+      },
+      "tags": {
+        "strongly_agree": [
+          "anthropic_simp"
+        ],
+        "strongly_disagree": [
+          "privacy_absolutist",
+          "move_fast_breaker"
+        ]
+      }
     },
     {
       "id": 37,
       "text": "Discord、Slack 虽然好用，但它们是封闭的黑盒。为了技术的长期健康，极客社区应该坚持使用去中心化聊天软件。",
-      "effect": { "free_commercial": 0.7, "public_proprietary": 0.9, "individual_center": 0.6, "freedom_security": 0.3 },
-      "tags": { "strongly_agree": ["linux_evangelist", "open_source_zealot"], "agree": ["self_host_king"] }
+      "effect": {
+        "free_commercial": 0.7,
+        "public_proprietary": 0.9,
+        "individual_center": 0.6,
+        "freedom_security": 0.3
+      },
+      "tags": {
+        "strongly_agree": [
+          "self_host_king",
+          "linux_evangelist"
+        ],
+        "agree": [
+          "self_host_king"
+        ]
+      }
     },
     {
       "id": 38,
       "text": "技术可以解决气候变化和资源枯竭问题，“去增长”和停止 AI 研发是反人类的。我们应该信仰有效加速主义（e/acc），一直向前造。",
-      "effect": { "free_commercial": -0.2, "public_proprietary": 0.2, "individual_center": 0.5, "freedom_security": 0.9 },
-      "tags": { "strongly_agree": ["musk_fanboy", "tech_optimist"], "strongly_disagree": ["effective_altruist", "ai_doomer"] }
+      "effect": {
+        "free_commercial": -0.2,
+        "public_proprietary": 0.2,
+        "individual_center": 0.5,
+        "freedom_security": 0.9
+      },
+      "tags": {
+        "strongly_agree": [
+          "move_fast_breaker"
+        ],
+        "strongly_disagree": [
+          "anthropic_simp"
+        ]
+      }
     },
     {
       "id": 39,
       "text": "苹果对 App Store 强制收取 30% 的“苹果税”是对开发者纯粹的敲诈。",
-      "effect": { "free_commercial": 0.4, "public_proprietary": 0, "individual_center": 0.6, "freedom_security": 0.4 },
-      "tags": { "strongly_agree": ["free_market_techbro"], "strongly_disagree": ["walled_garden_defender"] }
+      "effect": {
+        "free_commercial": 0.4,
+        "public_proprietary": 0,
+        "individual_center": 0.6,
+        "freedom_security": 0.4
+      },
+      "tags": {
+        "strongly_agree": [
+          "copyleft_warrior"
+        ],
+        "strongly_disagree": [
+          "walled_garden_defender"
+        ]
+      }
     },
     {
       "id": 40,
       "text": "GitHub 选择配合当地法律，对中国区用户屏蔽部分敏感的开源项目是有必要的。",
-      "effect": { "free_commercial": -0.5, "public_proprietary": -0.4, "individual_center": -0.6, "freedom_security": -0.7 },
-      "tags": { 
-        "strongly_agree": ["enterprise_chad", "tech_capitalist"], 
-        "strongly_disagree": ["cypherpunk", "hacker_libertarian"] 
+      "effect": {
+        "free_commercial": -0.5,
+        "public_proprietary": -0.4,
+        "individual_center": -0.6,
+        "freedom_security": -0.7
+      },
+      "tags": {
+        "strongly_agree": [
+          "enterprise_chad"
+        ],
+        "strongly_disagree": [
+          "privacy_absolutist",
+          "linux_evangelist"
+        ]
       }
     },
     {
       "id": 41,
       "text": "Linux 内核社区为了遵守美国政府的制裁令，将俄罗斯籍的底层代码维护者集体除名是必要之恶。",
-      "effect": { "free_commercial": 0.8, "public_proprietary": 0.9, "individual_center": 0.5, "freedom_security": 0.6 },
-      "tags": { 
-        "strongly_disagree": ["free_software_advocate", "linux_evangelist"], 
-        "strongly_agree": ["regulation_fan"] 
+      "effect": {
+        "free_commercial": -0.5,
+        "public_proprietary": -0.7,
+        "individual_center": -0.5,
+        "freedom_security": -0.7
+      },
+      "tags": {
+        "strongly_agree": [
+          "enterprise_chad"
+        ],
+        "strongly_disagree": [
+          "linux_evangelist",
+          "copyleft_warrior"
+        ]
       }
     },
     {
       "id": 42,
       "text": "Anthropic 和 OpenAI 严厉封锁来自中国大陆等地区的 API 访问是合理的。为了防止前沿 AI 技术被用来增强对手的网络战或监控能力，AI 公司必须充当“看门人”。",
-      "effect": { "free_commercial": -0.4, "public_proprietary": -0.7, "individual_center": -0.6, "freedom_security": -0.9 },
-      "tags": { 
-        "strongly_agree": ["anthropic_simp", "safety_first"], 
-        "strongly_disagree": ["ai_openness_advocate", "e_acc"] 
+      "effect": {
+        "free_commercial": -0.4,
+        "public_proprietary": -0.7,
+        "individual_center": -0.6,
+        "freedom_security": -0.9
+      },
+      "tags": {
+        "strongly_agree": [
+          "anthropic_simp",
+          "enterprise_chad"
+        ],
+        "strongly_disagree": [
+          "move_fast_breaker"
+        ]
       }
     }
   ]
