@@ -1,178 +1,64 @@
 {
   "tags": [
     {
-      "id": "free_software_advocate",
-      "name": "自由软件倡导者",
-      "desc": "软件自由是基本人权",
-      "emoji": "🆓"
-    },
-    {
-      "id": "open_source_zealot",
-      "name": "开源狂热者",
-      "desc": "逢代码必开源，闭源是原罪",
-      "emoji": "📖"
-    },
-    {
-      "id": "enterprise_chad",
-      "name": "企业级Chad",
-      "desc": "付费=质量，免费=不可靠",
-      "emoji": "💼"
-    },
-    {
-      "id": "anthropic_simp",
-      "name": "A孝子",
-      "desc": "Anthropic死忠粉，RLHF是唯一正道",
-      "emoji": "🅰️"
-    },
-    {
-      "id": "effective_altruist",
-      "name": "有效利他主义者",
-      "desc": "用理性最大化技术对人类的益处",
-      "emoji": "🧠"
-    },
-    {
       "id": "linux_evangelist",
-      "name": "Linux传教士",
-      "desc": "I use Arch btw",
+      "name": "I use Arch btw",
+      "desc": "万物皆可命令行，只要有机会就会向别人推销 Linux",
       "emoji": "🐧"
     },
     {
-      "id": "decentralization_maximalist",
-      "name": "去中心化极端者",
-      "desc": "万物皆可去中心化",
-      "emoji": "🌐"
-    },
-    {
-      "id": "blockchain_maxi",
-      "name": "区块链原教旨",
-      "desc": "区块链解决一切问题",
-      "emoji": "⛓️"
-    },
-    {
-      "id": "hacker_libertarian",
-      "name": "黑客自由派",
-      "desc": "信息自由，反对一切审查",
-      "emoji": "🔓"
-    },
-    {
-      "id": "privacy_absolutist",
-      "name": "隐私绝对主义者",
-      "desc": "隐私权不可让渡",
-      "emoji": "🛡️"
-    },
-    {
-      "id": "safety_first",
-      "name": "安全第一派",
-      "desc": "安全比自由更重要",
-      "emoji": "🔒"
-    },
-    {
-      "id": "cypherpunk",
-      "name": "赛博朋克",
-      "desc": "密码学保护自由",
-      "emoji": "🔐"
-    },
-    {
-      "id": "copyleft_warrior",
-      "name": "Copyleft战士",
-      "desc": "GPL是唯一正义的协议",
-      "emoji": "⚔️"
-    },
-    {
-      "id": "musk_fanboy",
-      "name": "马斯克粉丝",
-      "desc": "第一性原理万岁",
-      "emoji": "🚀"
-    },
-    {
-      "id": "cloud_native_chad",
-      "name": "云原生Chad",
-      "desc": "一切皆可容器化",
-      "emoji": "☁️"
-    },
-    {
-      "id": "self_host_king",
-      "name": "自建之王",
-      "desc": "能自建绝不买SaaS",
-      "emoji": "🏠"
-    },
-    {
       "id": "rust_evangelist",
-      "name": "Rust布道者",
-      "desc": "Rewrite it in Rust!",
+      "name": "Rust 宗教裁判所",
+      "desc": "内存安全是第一要务！Rewrite EVERYTHING in Rust!",
       "emoji": "🦀"
     },
     {
-      "id": "terminal_chad",
-      "name": "终端Chad",
-      "desc": "GUI是给新手用的",
-      "emoji": "💻"
+      "id": "copyleft_warrior",
+      "name": "GPL 卫道士",
+      "desc": "将吸血大厂视为死敌，坚守开源协议的底线",
+      "emoji": "⚔️"
     },
     {
-      "id": "unix_philosopher",
-      "name": "Unix哲学家",
-      "desc": "做好一件事，管道连接一切",
-      "emoji": "🔧"
+      "id": "anthropic_simp",
+      "name": "Claude 孝子",
+      "desc": "Anthropic 的死忠粉，坚信 RLHF 和宪法 AI 是唯一正道",
+      "emoji": "🅰️"
     },
     {
-      "id": "tech_neutralist",
-      "name": "技术中立论者",
-      "desc": "工具没有道德属性",
-      "emoji": "⚖️"
+      "id": "move_fast_breaker",
+      "name": "敏捷狂徒",
+      "desc": "Move fast and break things，有没有Bug上线了再说",
+      "emoji": "🚀"
     },
     {
-      "id": "ip_defender",
-      "name": "知识产权捍卫者",
-      "desc": "开发者有权保护自己的劳动成果",
-      "emoji": "📜"
-    },
-    {
-      "id": "patent_abolisher",
-      "name": "专利废除者",
-      "desc": "软件专利阻碍创新",
-      "emoji": "❌"
-    },
-    {
-      "id": "free_market_techbro",
-      "name": "自由市场科技男",
-      "desc": "市场竞争决定一切",
-      "emoji": "📈"
-    },
-    {
-      "id": "regulation_fan",
-      "name": "监管爱好者",
-      "desc": "政府应该管管科技公司",
-      "emoji": "🏛️"
-    },
-    {
-      "id": "human_augmentation",
-      "name": "人类增强派",
-      "desc": "AI应该增强而非替代人类",
-      "emoji": "💪"
+      "id": "self_host_king",
+      "name": "赛博仓鼠",
+      "desc": "万物皆可 Docker，绝不给 SaaS 资本家交一分钱保护费",
+      "emoji": "🐹"
     },
     {
       "id": "walled_garden_defender",
-      "name": "围墙花园捍卫者",
-      "desc": "封闭生态有其合理性",
+      "name": "果粉 / 围墙捍卫者",
+      "desc": "心甘情愿待在苹果生态里，“省心好用”比“折腾自由”更重要",
       "emoji": "🍎"
     },
     {
-      "id": "nix_evangelist",
-      "name": "Nix布道者",
-      "desc": "声明式配置是一切的答案",
-      "emoji": "❄️"
+      "id": "privacy_absolutist",
+      "name": "赛博幽灵",
+      "desc": "常年挂着 VPN，拒绝一切 Cookie，用着 Signal，谁也找不到你",
+      "emoji": "👻"
     },
     {
-      "id": "craftsman",
-      "name": "工匠精神",
-      "desc": "代码质量比速度更重要",
-      "emoji": "🔨"
+      "id": "enterprise_chad",
+      "name": "西装暴徒",
+      "desc": "不在乎什么极客浪漫，用最成熟的技术赚最稳健的钱",
+      "emoji": "💼"
     },
     {
-      "id": "ai_openness_advocate",
-      "name": "AI开放倡导者",
-      "desc": "AI模型应该对所有人开放",
-      "emoji": "🤖"
+      "id": "ip_defender",
+      "name": "电子版权斗士",
+      "desc": "坚决抵制 AI 爬虫和盗版，誓死捍卫创作者的知识产权",
+      "emoji": "⚖️"
     }
   ]
 }

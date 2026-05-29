@@ -2,8 +2,8 @@
   "ideologies": [
     {
       "id": "free_software_purist",
-      "name": "自由软件原教旨主义者",
-      "desc": "Richard Stallman的精神继承者，认为软件自由是基本人权",
+      "name": "自由软件原教旨主义",
+      "desc": "Richard Stallman 的精神继承者。你坚信“Free as in Freedom”，视闭源商业软件为剥削，认为 GPL 协议才是人类之光，极大概率抵制微软和苹果生态。",
       "stats": {
         "free_commercial": 95,
         "public_proprietary": 95,
@@ -14,7 +14,7 @@
     {
       "id": "open_source_pragmatist",
       "name": "开源实用主义者",
-      "desc": "相信开源是更好的开发模式，但不排斥商业",
+      "desc": "你喜欢 MIT 或 Apache 协议。你认为开源是一种优秀的软件工程方法，而不是什么宗教信仰。你不排斥闭源商业软件，只要它好用就行。",
       "stats": {
         "free_commercial": 65,
         "public_proprietary": 75,
@@ -24,8 +24,8 @@
     },
     {
       "id": "tech_capitalist",
-      "name": "商业科技精英",
-      "desc": "技术应该由市场驱动，利润是创新的动力",
+      "name": "硅谷商业精英",
+      "desc": "效率、护城河、ARR（年度经常性收入）才是你的语言。你认为技术创新的核心动力是商业利润，开源只是大厂用来打击竞争对手或获取免费劳动力的商业策略。",
       "stats": {
         "free_commercial": 15,
         "public_proprietary": 20,
@@ -34,42 +34,20 @@
       }
     },
     {
-      "id": "decentralization_maximalist",
-      "name": "去中心化极端者",
-      "desc": "Web3信徒，认为一切都可以/应该去中心化",
+      "id": "cypherpunk",
+      "name": "赛博朋克 / 加密无政府主义",
+      "desc": "“代码即法律”。极度不信任政府、大公司和审查制度。你信仰端到端加密、Tor匿名网络和去中心化货币。在你看来，隐私不是特权，而是盾牌。",
       "stats": {
-        "free_commercial": 70,
-        "public_proprietary": 80,
+        "free_commercial": 55,
+        "public_proprietary": 75,
         "individual_center": 95,
-        "freedom_security": 70
-      }
-    },
-    {
-      "id": "security_statist",
-      "name": "安全优先主义者",
-      "desc": "认为安全比自由更重要，支持适度监管",
-      "stats": {
-        "free_commercial": 30,
-        "public_proprietary": 25,
-        "individual_center": 20,
-        "freedom_security": 15
-      }
-    },
-    {
-      "id": "hacker_libertarian",
-      "name": "黑客自由派",
-      "desc": "信息自由，反对审查，探索系统边界是天赋人权",
-      "stats": {
-        "free_commercial": 60,
-        "public_proprietary": 70,
-        "individual_center": 90,
         "freedom_security": 95
       }
     },
     {
       "id": "enterprise_architect",
-      "name": "企业架构师",
-      "desc": "稳定、可维护、商业支持才是企业需要的",
+      "name": "企业级架构师",
+      "desc": "“Nobody gets fired for buying IBM”。你厌恶过度炒作的新技术（比如Web3或各种新框架），你追求的是SLA、向后兼容、微服务架构和可靠的商业支持。稳定压倒一切。",
       "stats": {
         "free_commercial": 20,
         "public_proprietary": 30,
@@ -78,58 +56,36 @@
       }
     },
     {
-      "id": "indie_hacker",
-      "name": "独立开发者",
-      "desc": "一人公司，快速迭代，盈利优先",
-      "stats": {
-        "free_commercial": 45,
-        "public_proprietary": 50,
-        "individual_center": 85,
-        "freedom_security": 65
-      }
-    },
-    {
-      "id": "ai_safety_advocate",
-      "name": "AI安全倡导者",
-      "desc": "AI发展需要谨慎，安全研究比开源更重要",
+      "id": "ai_doomer",
+      "name": "AGI 对齐派 / 末日论者",
+      "desc": "你是 AI 安全的吹哨人。你认为智力爆炸近在咫尺，当前科技巨头为了商业竞争疯狂开源和发布大模型是不负责任的行为，人类亟需监管和对齐（Alignment）技术。",
       "stats": {
         "free_commercial": 35,
-        "public_proprietary": 20,
+        "public_proprietary": 15,
         "individual_center": 25,
-        "freedom_security": 15
+        "freedom_security": 10
       }
     },
     {
-      "id": "cypherpunk",
-      "name": "赛博朋克",
-      "desc": "用密码学保护自由，代码即法律",
+      "id": "e_acc",
+      "name": "有效加速主义 (e/acc)",
+      "desc": "“Keep building”。你认为阻碍技术进步才是对人类最大的犯罪。无论是AGI还是太空探索，只要能加速人类文明的演进，一切风险都是值得承受的代价。",
       "stats": {
-        "free_commercial": 55,
-        "public_proprietary": 75,
-        "individual_center": 90,
+        "free_commercial": 45,
+        "public_proprietary": 60,
+        "individual_center": 70,
         "freedom_security": 90
       }
     },
     {
-      "id": "cloud_native",
-      "name": "云原生信徒",
-      "desc": "一切皆可容器化，K8s是真理",
+      "id": "self_host_geek",
+      "name": "赛博农场主 (Self-Hosted)",
+      "desc": "你患有“云服务不信任症”。从 NAS、密码管理器到智能家居，你致力于把一切数据掌握在自己物理可触及的硬盘里。Docker 和软路由是你的灵魂伴侣。",
       "stats": {
-        "free_commercial": 25,
-        "public_proprietary": 35,
-        "individual_center": 20,
-        "freedom_security": 30
-      }
-    },
-    {
-      "id": "digital_nomad",
-      "name": "数字游民",
-      "desc": "工具效率优先，混合使用各种方案",
-      "stats": {
-        "free_commercial": 50,
-        "public_proprietary": 55,
-        "individual_center": 70,
-        "freedom_security": 55
+        "free_commercial": 65,
+        "public_proprietary": 70,
+        "individual_center": 90,
+        "freedom_security": 65
       }
     }
   ]
